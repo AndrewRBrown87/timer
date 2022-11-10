@@ -4,7 +4,7 @@
 const args = process.argv.slice(2);
 
 //loop through arguments
-args.forEach(function(arg){
+args.forEach(function(arg) {
   if (arg < 0 || isFinite(arg) === false) {
     //do nothing if -ve or NaN
   } else {
